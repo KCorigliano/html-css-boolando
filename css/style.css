@@ -6,7 +6,7 @@
 
 body{
     font-family: arial;
-    background-color: lightgrey;
+    background-color: rgb(228, 228, 228);
     width: 1200px;
 }
 
@@ -43,15 +43,6 @@ p{
     left: 5px;
 }
 
-.like{
-    background: white;
-    vertical-align: middle;
-    padding: 5px 10px;
-    position: absolute;
-    top: 20px;
-    right: 5px;
-}
-
 /* ---------------------------------------- */
 
 
@@ -78,4 +69,27 @@ img{
 .green{
     background-color: green;
     padding: 5px 5px;
+}
+
+.like{
+    background: white;
+    vertical-align: middle;
+    padding: 5px 10px;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+.card{
+    position: relative;
+}
+
+.davanti{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.card:hover .davanti{
+    display: none;
 }
